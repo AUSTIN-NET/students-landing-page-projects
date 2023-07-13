@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    color: white;
+    font-family: montserrat;
+}
+nav{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 100px;
+    margin-top: 0;
+    display: flex;
+    background-color: darkblue;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p{
+    margin-left: 200px;
+    font-size: xx-large;
+    padding: 0px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+ul{
+    margin-right:200px ;
+}
+
+li{
+    display: inline-block;
+    padding: 25px;
+    font-size: large;
+    font-weight: 700;
+}
+
+li a{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding:5px 20px;
+    border-radius: 5px;
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.first{
+    background-color: lightblue;  
+    margin-top: 100px;   
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    max-width: 500px;
+    max-height: 300px;
+    margin-left: 200px ;
+}
+
+.text1{
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 900;
+    margin: 0;
+}
+
+.text2{
+    font-size: x-large;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.service{
+    background-color: blue;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    width: 150px;
+    padding:5px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.service:hover{
+    background-color: white;
+    color: black;
+}
+
+.up-wrapper{
+    display: flex;
+    margin:100px 220px ;
+    padding: 2px 2px 0px 2px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.up{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 3px 3px 1px 3px;
+}
+
+.second{
+    background-color: white;
+    align-items: center;
+}
+
+.second h1{
+    color: black;
+    text-decoration: underline;
+}
+
+.part2{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.part2 img{
+    width: 200px;
+    height: 250px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.figcaptions{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin: 0px 200px;
+}
+
+.figcaptions p{
+    position: relative;
+    bottom: 50px;
+    font-size: 16px;
+}
+
+.figcaptions p:nth-child(2){
+    left: 15px;
+}
+
+.figcaptions p:nth-child(3){
+    left: 14px;
+}
+
+.rd{
+   background-color: lightblue;
+   align-items: center;
+   color: black;
+}
+
+.third{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-style: italic;
+}
+
+b{
+    float: right;
+    font-style: normal;
+}
+
+.place{
+    background-color: blue;
+    border-radius: 15px;
+    margin: 50px 200px;
+    padding: 50px 200px;
+}
+
+.place p:first-child{
+    font-weight: 600;
+    font-size: larger;
+}
+
+.place a{
+    float: right;
+    position: relative;
+    bottom: 50px;
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 5px 25px;
+    font-size: large;
+    text-decoration: none;
+}
+
+.place a:hover{
+    color: black;
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.place a, footer a{
+    color: white;
+}
